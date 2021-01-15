@@ -1,0 +1,26 @@
+<title>Pet Adoption</title>
+
+<h1>Welcome to the pet adoption page</h1>
+
+<p>Please enter the information and we will contact you.</p>
+
+<form method="post">
+  {{form.hidden_tag()}}
+  {{form.name.label}} {{form.name}}
+  <br>
+  <br>
+  {{form.phone.label}} {{form.phone}}
+  <br>
+  <br>
+  {{form.age.label}} {{form.age}}
+  <br>
+  <br>
+  {{form.pet.label}} {{form.pet}}
+  <br>
+  <br>
+  Any other enquiries?
+  {{form.enq}}
+  <br>
+  <br>
+  {{form.submit}}
+</form>
